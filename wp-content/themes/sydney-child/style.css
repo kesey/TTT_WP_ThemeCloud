@@ -1,0 +1,236 @@
+/*
+Theme Name: Sydney Child
+Author: Fabien Meunier
+Author URI: https://github.com/kesey
+Description: child theme of Sydney
+Template: sydney
+Version: 1.38
+Text Domain: sydney-child
+Tags: two-columns, right-sidebar, custom-colors, custom-background, custom-header, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+@import url("../sydney/style.css");
+
+/********************************************************************Custom_rules************************************************************************/
+.easeInOut {
+	-moz-transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.widget-area .widget,.widget_search {
+	padding-top: 0px;
+}
+
+.links_friends {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 50%;
+}
+
+.links_aliens {
+	display: inline-block;
+}
+
+.links_friends p, .links_aliens p {
+	margin-left: 50px;
+}
+
+code {
+	display: none;
+}
+
+.wpcf7-form label {
+	width: 100%;
+}
+
+.wpcf7-form-control-wrap {
+	position: relative;
+	display: block;
+}
+
+.wpcf7-form-control.wpcf7-text, .wpcf7-form-control.wpcf7-textarea {
+	width: 100%;
+}
+
+.meta-post {
+	display: none;
+}
+
+.content-area {
+	width: 100%;
+}
+
+.content-area .entry-thumb {
+	text-align: left;
+}
+
+/* zoom images on hover */
+
+.dslc-post img, .post_preview img {
+	transition: all .5s ease-in-out;
+}
+
+.dslc-post img:hover {
+	transform: scale(1.1);
+}
+
+/************************/
+
+.single .single_title {
+	margin-bottom: 5px;
+}
+
+.single_image {
+	display: inline-block;
+	margin: 5px 20px 10px 0px;
+	vertical-align: top;
+	min-width: 310px;
+	max-width: 40%;
+}
+
+.single_image:hover {
+	cursor: pointer;
+}
+
+.single_content {
+	display: inline-block;
+	width: 56%;
+}
+
+.zoom_in {
+	max-width: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 5% auto;
+	z-index: 3;
+	padding-top: 5%;
+}
+
+.zoom_in img {
+	width: 100%;
+	height: 100%;
+	max-height: 600px;
+	object-fit: contain;
+}
+
+.map_container {
+	text-align: center;
+}
+
+.map {
+	margin-bottom: 50px;
+}
+
+.live {
+	margin-top: 50px;
+}
+
+.live_container {
+	text-align: center;
+}
+
+.post_preview {
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	position: relative;
+	vertical-align: top;
+	border-color: #e8e8e8;
+	border-width: 1px;
+	border-style: none solid solid solid;
+	overflow: hidden;
+}
+
+.post_preview h6 {
+	width: 200px;
+	font-size: 17px;
+	margin-top: 22px;
+	padding: 10px;
+	line-height: 25px;
+}
+
+.link_cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.display_infos {
+	font-size: 18px;
+}
+
+.audio_player {
+	margin-bottom: 20px;
+}
+
+.audio_player audio {
+	width: 100%;
+}
+
+.video_player {
+	margin-bottom: 50px;
+}
+
+.video_player video {
+	width: 100%;
+}
+
+.payment_container table {
+	width: 200px;
+}
+
+.payment_container table td{
+	border: none;
+	text-align: left;
+}
+
+.payment_container form:first-child {
+	margin: 0 0 25px 0;
+}
+
+.payment_container form:last-child {
+	margin: 25px 0 50px 0;
+}
+
+.payment_container ul {
+	list-style: none;
+}
+
+#mc_embed_signup_scroll label {
+	display: block;
+	text-transform: uppercase;
+	color: #c5c5c5;
+	line-height: normal;
+	margin: 5px 0 0;
+	font-size: 16px;
+	font-weight: 600;
+	padding-bottom: 24px;
+}
+
+#mc_embed_signup_scroll .email.form-control {
+	width: 195px;
+	vertical-align: top;
+}
+
+.clear {
+	display: inline-block;
+	margin-left: -3px;
+}
+
+.clear input {
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 0px;
+	width: 100px;
+	padding: 12px;
+}
